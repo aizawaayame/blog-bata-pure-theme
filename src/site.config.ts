@@ -3,13 +3,13 @@ import type { CardListData, FooterConfig, IntegrationConfig, MenuLinks, SiteConf
 export const siteConfig: SiteConfig = {
   // === Required meta properties ===
   // Used as both a meta property (src/components/BaseHead.astro L:31 + L:49) & the generated satori png (src/pages/og-image/[slug].png.ts)
-  author: 'Pure Lab',
+  author: '种田的黄油',
   // Meta property used to construct the meta title property, found in src/components/BaseHead.astro L:11
-  title: 'Astro Theme Pure',
+  title: '种田的黄油',
   // Meta property used to generate your sitemap and canonical URLs in your final build
   site: 'https://astro-theme-pure.vercel.app',
   // Meta property used as the default description meta property
-  description: 'Stay hungry, stay foolish',
+  description: 'the unexamined life is not worth living',
   // HTML lang property, found in src/layouts/Base.astro L:18
   lang: 'zh-CN, en-US',
   // Meta property, found in src/components/BaseHead.astro L:42
@@ -59,13 +59,13 @@ export const footerConfig: FooterConfig = {
     text: '萌ICP备APTX4869号'
   },
   socialLinks: [
-    // {
-    //   name: 'mail',
-    //   url: 'mailto:test@example.com'
-    // },
+    {
+      name: 'mail',
+      url: 'mailto:aizawaayame@outlook.com'
+    },
     {
       name: 'github',
-      url: 'https://github.com/cworld1/astro-theme-pure'
+      url: 'https://github.com/aizawaayame'
     }
   ]
 }
