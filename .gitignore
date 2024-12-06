@@ -1,6 +1,7 @@
 # Created by https://www.toptal.com/developers/gitignore/api/astro,vim,visualstudiocode,vercel
 # Edit at https://www.toptal.com/developers/gitignore?templates=astro,vim,visualstudiocode,vercel
 
+.idea
 ### Astro ###
 # Gitignore template for Astro projects
 # Ignore content collection generated files
