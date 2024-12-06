@@ -55,8 +55,8 @@ export const siteConfig: SiteConfig = {
 export const footerConfig: FooterConfig = {
   // Registration information for ICP (optional)
   registration: {
-    url: 'https://icp.gov.moe/?keyword=APTX4869',
-    text: '萌ICP备APTX4869号'
+    url: 'https://icp.gov.moe/?keyword=20241946',
+    text: '萌ICP备20241946号'
   },
   socialLinks: [
     {
