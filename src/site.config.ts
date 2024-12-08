@@ -131,8 +131,12 @@ export const integrationConfig: IntegrationConfig = {
 
 export const menuLinks: MenuLinks = [
   {
+    link: '/moc',
+    label: '专栏'
+  },
+  {
     link: '/blog',
-    label: 'Blog'
+    label: '文章'
   },
   // Docs menu
   {
@@ -141,7 +145,7 @@ export const menuLinks: MenuLinks = [
   },
   {
     link: '/projects',
-    label: 'Projects'
+    label: '项目'
   },
   {
     link: '/links',

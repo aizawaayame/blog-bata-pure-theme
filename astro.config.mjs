@@ -33,6 +33,8 @@ import {
 } from './src/plugins/shikiTransformers.ts'
 import { integrationConfig, siteConfig } from './src/site.config.ts'
 
+import react from '@astrojs/react';
+
 // https://astro.build/config
 export default defineConfig({
   // Top-Level Options
@@ -56,16 +58,10 @@ export default defineConfig({
     }
   },
 
-  integrations: [
-    tailwind({ applyBaseStyles: false }),
-    sitemap(),
-    mdx(),
-    icon(),
-    (await import('@playform/compress')).default({
-      SVG: false,
-      Exclude: ['index.*.js']
-    })
-  ],
+  integrations: [tailwind({ applyBaseStyles: false }), sitemap(), mdx(), icon(), (await import('@playform/compress')).default({
+    SVG: false,
+    Exclude: ['index.*.js']
+  }), react()],
   // root: './my-project-directory',
 
   // Prefetch Options
