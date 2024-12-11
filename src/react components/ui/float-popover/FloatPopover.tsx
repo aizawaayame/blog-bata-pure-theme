@@ -29,9 +29,9 @@ import { useEventCallback } from 'src/hooks/common/use-event-callback'
 import { stopPropagation } from 'src/lib/dom'
 import { clsxm } from 'src/lib/helper'
 
-import { RootPortal } from '../portal'
-import type { PresentSheetProps } from '../sheet'
-import { PresentSheet } from '../sheet'
+import { RootPortal } from '../../portal'
+import type { PresentSheetProps } from '../../sheet'
+import { PresentSheet } from '../../sheet'
 
 export const FloatPopover = function <T extends {}>(
   props: FloatPopoverProps<T> & {

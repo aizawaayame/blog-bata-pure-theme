@@ -3,7 +3,7 @@
 import type { FC, PropsWithChildren } from 'react'
 import { createPortal } from 'react-dom'
 
-import { useIsClient } from '~/hooks/common/use-is-client'
+import { useIsClient } from 'src/hooks/common/use-is-client'
 
 import { useRootPortal } from './provider'
 
