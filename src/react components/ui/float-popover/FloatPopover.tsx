@@ -222,15 +222,16 @@ const RealFloatPopover = function FloatPopover<T extends {}>(
       },
     )
   ) : (
-    <As
-      // @ts-ignore
-      role={trigger === 'both' || trigger === 'click' ? 'button' : 'note'}
-      className={clsxm('inline-block', wrapperClassNames)}
-      ref={refs.setReference}
-      {...listener}
-    >
-      {Child}
-    </As>
+    // 有一系列包未引入
+    // <As
+    //   // @ts-ignore
+    //   role={trigger === 'both' || trigger === 'click' ? 'button' : 'note'}
+    //   className={clsxm('inline-block', wrapperClassNames)}
+    //   ref={refs.setReference}
+    //   {...listener}
+    // >
+    //   {Child}
+    // </As>
   )
 
   useEffect(() => {
