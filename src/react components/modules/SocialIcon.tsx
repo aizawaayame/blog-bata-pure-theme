@@ -2,12 +2,11 @@
 import type { ReactNode, SVGProps} from 'react'
 import { memo, useMemo } from 'react'
 
-import { BilibiliIcon } from 'src/react components/icons/platform/BilibiliIcon'
-import { BlueskyIcon } from 'src/react components/icons/platform/BlueskyIcon'
-import { NeteaseCloudMusicIcon } from 'src/react components/icons/platform/NeteaseIcon'
-import { XIcon } from 'src/react components/icons/platform/XIcon'
 import { MotionButtonBase } from 'src/react components/ui/button'
 import { FloatPopover } from 'src/react components/ui/float-popover'
+import { XIcon } from '../Icons/platform/XIcon'
+import { BilibiliIcon } from '../Icons/platform/BilibiliIcon'
+import { BlueskyIcon } from '../Icons/platform/BlueskyIcon'
 
 function ZhihuIcon(props: SVGProps<SVGSVGElement>) {
   return (

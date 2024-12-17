@@ -11,7 +11,6 @@ import { Button, Card, Label } from '@/components/user'
 import { getAllCollections, sortMDByDate } from '@/utils'
 import avatar from '@/assets/avatar.gif'
 import { siteConfig } from '@/site-config'
-import { MotionButtonBase } from 'src/react components/ui/button/MotionButton'
 
 const languages = ['Html', 'JavaScript', 'CSS', 'Shell']
 const frontend = ['TypeScript', 'Vite', 'Webpack', 'Astro']
@@ -40,12 +39,6 @@ const allPostsByDate = sortMDByDate(allPosts).slice(0, MAX_POSTS)
               <use href='/icons/social.svg#mingcute-github-line'></use>
             </svg>
           </Label>
-          <MotionButtonBase className="center flex aspect-square size-10 rounded-full text-2xl text-white" >
-            <svg class='size-5' slot='icon'>
-              <use href='/icons/social.svg#mingcute-github-line'></use>
-            </svg>
-            <i className="i-mingcute-github-line" />,
-          </MotionButtonBase>
         </div>
       </div>
 

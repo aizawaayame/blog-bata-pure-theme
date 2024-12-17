@@ -232,6 +232,7 @@ const RealFloatPopover = function FloatPopover<T extends {}>(
     // >
     //   {Child}
     // </As>
+    <></>
   )
 
   useEffect(() => {
